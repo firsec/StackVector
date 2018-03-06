@@ -22,4 +22,4 @@ Elapsed ms: 0.00199111 ms
 ```
 "Heap vector" is the default vector allocator that ships with the C++ Standard Library. As you can see, all stack allocators were faster for a small allocation on the stack, which in this case is a vector of size 129 * sizeof(Custom), and Custom is a class containing a char and a size_t.
 
-This benchmark gives similar output in Visual Studio, GCC and Clang, even with optimizations on or off.
+This benchmark gives similar output in Visual Studio, GCC and Clang, even with optimizations on or off, which demonstrates a desirable merging of the flexibility of vectors with the speed of stack arrays.

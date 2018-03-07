@@ -27,7 +27,7 @@ This benchmark gives similar output in Visual Studio, GCC and Clang, even with o
 Allocating the vector is very simple: new_stack_vector(Type, name, size)
 where `Type` is the type of element in the vector, `name` is the variable name of the vector, and `size` is the maximum number of elements to allow in the vector.
 
-**The maximum number of elements can be variable and does not need to be a compile-time constant! :D**
+**`size` can be variable and does not need to be a compile-time constant! :D**
 
 Example:
 ```

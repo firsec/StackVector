@@ -25,7 +25,7 @@ Elapsed ms: 0.00199111 ms
 This benchmark gives similar output in Visual Studio, GCC and Clang, even with optimizations on or off, which demonstrates a desirable merging of the flexibility of vectors with the speed of stack arrays.
 
 Allocating the vector is very simple: new_stack_vector(Type, name, size)
-where `Type` is the type of element in the vector, `name` is the variable name of the vector, and `size` is the maximum number of elements to allow in the vector.
+where `Type` is the type of element in the vector, `name` is the variable name of the vector, and `size` is the maximum number of elements to allow in the vector. **The maximum item size can be variable and does not need to be constant! :D**
 
 Example:
 ```

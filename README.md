@@ -36,4 +36,4 @@ vec.push_back(10); //added "10" as the first item in the vector
 ```
 ...and that's all!
 
-*Disclaimer: Never use very large array sizes on the stack in general. Like you should not use `int var[9999999]`, you should similarly not use `new_stack_vector(int, vec, 9999999)`! Use responsibly.
+*Disclaimer: Never use very large array sizes on the stack in general. Like you should not use `int var[9999999]`, you should similarly not use `new_stack_vector(int, vec, 9999999)`! Use responsibly.*
